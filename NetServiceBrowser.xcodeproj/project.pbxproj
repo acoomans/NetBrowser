@@ -21,6 +21,21 @@
 		512E1034171FA0510085F7CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512E1015171FA0500085F7CD /* Foundation.framework */; };
 		512E103C171FA0510085F7CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 512E103A171FA0510085F7CD /* InfoPlist.strings */; };
 		512E103F171FA0510085F7CD /* NetServiceBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E103E171FA0510085F7CD /* NetServiceBrowserTests.m */; };
+		512E104B171FA0D00085F7CD /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E1049171FA0D00085F7CD /* ACViewController.m */; };
+		512E104C171FA0D00085F7CD /* ACViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512E104A171FA0D00085F7CD /* ACViewController.xib */; };
+		512E1051171FA5BD0085F7CD /* requirements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 512E104F171FA5BD0085F7CD /* requirements.txt */; };
+		512E1052171FA5BD0085F7CD /* service.py in Resources */ = {isa = PBXBuildFile; fileRef = 512E1050171FA5BD0085F7CD /* service.py */; };
+		512E105F171FA5E90085F7CD /* MLTableAlertBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E1055171FA5E90085F7CD /* MLTableAlertBackground.png */; };
+		512E1060171FA5E90085F7CD /* MLTableAlertBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E1056171FA5E90085F7CD /* MLTableAlertBackground@2x.png */; };
+		512E1061171FA5E90085F7CD /* MLTableAlertButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E1057171FA5E90085F7CD /* MLTableAlertButton.png */; };
+		512E1062171FA5E90085F7CD /* MLTableAlertButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E1058171FA5E90085F7CD /* MLTableAlertButton@2x.png */; };
+		512E1063171FA5E90085F7CD /* MLTableAlertButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E1059171FA5E90085F7CD /* MLTableAlertButtonPressed.png */; };
+		512E1064171FA5E90085F7CD /* MLTableAlertButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E105A171FA5E90085F7CD /* MLTableAlertButtonPressed@2x.png */; };
+		512E1065171FA5E90085F7CD /* MLTableAlertShadowMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E105B171FA5E90085F7CD /* MLTableAlertShadowMask.png */; };
+		512E1066171FA5E90085F7CD /* MLTableAlertShadowMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512E105C171FA5E90085F7CD /* MLTableAlertShadowMask@2x.png */; };
+		512E1067171FA5E90085F7CD /* MLTableAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 512E105E171FA5E90085F7CD /* MLTableAlert.m */; };
+		512E1069171FA83E0085F7CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512E1068171FA83E0085F7CD /* QuartzCore.framework */; };
+		512E106B171FAA690085F7CD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 512E106A171FAA690085F7CD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,23 @@
 		512E103B171FA0510085F7CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		512E103D171FA0510085F7CD /* NetServiceBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetServiceBrowserTests.h; sourceTree = "<group>"; };
 		512E103E171FA0510085F7CD /* NetServiceBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetServiceBrowserTests.m; sourceTree = "<group>"; };
+		512E1048171FA0D00085F7CD /* ACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
+		512E1049171FA0D00085F7CD /* ACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
+		512E104A171FA0D00085F7CD /* ACViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACViewController.xib; sourceTree = "<group>"; };
+		512E104F171FA5BD0085F7CD /* requirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
+		512E1050171FA5BD0085F7CD /* service.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = service.py; sourceTree = "<group>"; };
+		512E1055171FA5E90085F7CD /* MLTableAlertBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTableAlertBackground.png; sourceTree = "<group>"; };
+		512E1056171FA5E90085F7CD /* MLTableAlertBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLTableAlertBackground@2x.png"; sourceTree = "<group>"; };
+		512E1057171FA5E90085F7CD /* MLTableAlertButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTableAlertButton.png; sourceTree = "<group>"; };
+		512E1058171FA5E90085F7CD /* MLTableAlertButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLTableAlertButton@2x.png"; sourceTree = "<group>"; };
+		512E1059171FA5E90085F7CD /* MLTableAlertButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTableAlertButtonPressed.png; sourceTree = "<group>"; };
+		512E105A171FA5E90085F7CD /* MLTableAlertButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLTableAlertButtonPressed@2x.png"; sourceTree = "<group>"; };
+		512E105B171FA5E90085F7CD /* MLTableAlertShadowMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLTableAlertShadowMask.png; sourceTree = "<group>"; };
+		512E105C171FA5E90085F7CD /* MLTableAlertShadowMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLTableAlertShadowMask@2x.png"; sourceTree = "<group>"; };
+		512E105D171FA5E90085F7CD /* MLTableAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTableAlert.h; sourceTree = "<group>"; };
+		512E105E171FA5E90085F7CD /* MLTableAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTableAlert.m; sourceTree = "<group>"; };
+		512E1068171FA83E0085F7CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		512E106A171FAA690085F7CD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512E1069171FA83E0085F7CD /* QuartzCore.framework in Frameworks */,
 				512E1014171FA0500085F7CD /* UIKit.framework in Frameworks */,
 				512E1016171FA0500085F7CD /* Foundation.framework in Frameworks */,
 				512E1018171FA0500085F7CD /* CoreGraphics.framework in Frameworks */,
@@ -82,10 +115,12 @@
 		512E1007171FA0500085F7CD = {
 			isa = PBXGroup;
 			children = (
+				512E106A171FAA690085F7CD /* README.md */,
 				512E1019171FA0500085F7CD /* NetServiceBrowser */,
 				512E1037171FA0510085F7CD /* NetServiceBrowserTests */,
 				512E1012171FA0500085F7CD /* Frameworks */,
 				512E1011171FA0500085F7CD /* Products */,
+				512E104E171FA5BD0085F7CD /* Service */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +136,7 @@
 		512E1012171FA0500085F7CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				512E1068171FA83E0085F7CD /* QuartzCore.framework */,
 				512E1013171FA0500085F7CD /* UIKit.framework */,
 				512E1015171FA0500085F7CD /* Foundation.framework */,
 				512E1017171FA0500085F7CD /* CoreGraphics.framework */,
@@ -112,8 +148,12 @@
 		512E1019171FA0500085F7CD /* NetServiceBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				512E104D171FA5980085F7CD /* Libraries */,
 				512E1022171FA0500085F7CD /* ACAppDelegate.h */,
 				512E1023171FA0500085F7CD /* ACAppDelegate.m */,
+				512E1048171FA0D00085F7CD /* ACViewController.h */,
+				512E1049171FA0D00085F7CD /* ACViewController.m */,
+				512E104A171FA0D00085F7CD /* ACViewController.xib */,
 				512E101A171FA0500085F7CD /* Supporting Files */,
 			);
 			path = NetServiceBrowser;
@@ -150,6 +190,49 @@
 				512E103A171FA0510085F7CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512E104D171FA5980085F7CD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				512E1053171FA5E90085F7CD /* MLTableAlert Files */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		512E104E171FA5BD0085F7CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				512E104F171FA5BD0085F7CD /* requirements.txt */,
+				512E1050171FA5BD0085F7CD /* service.py */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		512E1053171FA5E90085F7CD /* MLTableAlert Files */ = {
+			isa = PBXGroup;
+			children = (
+				512E1054171FA5E90085F7CD /* Images */,
+				512E105D171FA5E90085F7CD /* MLTableAlert.h */,
+				512E105E171FA5E90085F7CD /* MLTableAlert.m */,
+			);
+			name = "MLTableAlert Files";
+			path = "submodules/MLTableAlert/MLTableAlert Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		512E1054171FA5E90085F7CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				512E1055171FA5E90085F7CD /* MLTableAlertBackground.png */,
+				512E1056171FA5E90085F7CD /* MLTableAlertBackground@2x.png */,
+				512E1057171FA5E90085F7CD /* MLTableAlertButton.png */,
+				512E1058171FA5E90085F7CD /* MLTableAlertButton@2x.png */,
+				512E1059171FA5E90085F7CD /* MLTableAlertButtonPressed.png */,
+				512E105A171FA5E90085F7CD /* MLTableAlertButtonPressed@2x.png */,
+				512E105B171FA5E90085F7CD /* MLTableAlertShadowMask.png */,
+				512E105C171FA5E90085F7CD /* MLTableAlertShadowMask@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +311,18 @@
 				512E1026171FA0500085F7CD /* Default.png in Resources */,
 				512E1028171FA0500085F7CD /* Default@2x.png in Resources */,
 				512E102A171FA0500085F7CD /* Default-568h@2x.png in Resources */,
+				512E104C171FA0D00085F7CD /* ACViewController.xib in Resources */,
+				512E1051171FA5BD0085F7CD /* requirements.txt in Resources */,
+				512E1052171FA5BD0085F7CD /* service.py in Resources */,
+				512E105F171FA5E90085F7CD /* MLTableAlertBackground.png in Resources */,
+				512E1060171FA5E90085F7CD /* MLTableAlertBackground@2x.png in Resources */,
+				512E1061171FA5E90085F7CD /* MLTableAlertButton.png in Resources */,
+				512E1062171FA5E90085F7CD /* MLTableAlertButton@2x.png in Resources */,
+				512E1063171FA5E90085F7CD /* MLTableAlertButtonPressed.png in Resources */,
+				512E1064171FA5E90085F7CD /* MLTableAlertButtonPressed@2x.png in Resources */,
+				512E1065171FA5E90085F7CD /* MLTableAlertShadowMask.png in Resources */,
+				512E1066171FA5E90085F7CD /* MLTableAlertShadowMask@2x.png in Resources */,
+				512E106B171FAA690085F7CD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +359,8 @@
 			files = (
 				512E1020171FA0500085F7CD /* main.m in Sources */,
 				512E1024171FA0500085F7CD /* ACAppDelegate.m in Sources */,
+				512E104B171FA0D00085F7CD /* ACViewController.m in Sources */,
+				512E1067171FA5E90085F7CD /* MLTableAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

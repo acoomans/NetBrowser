@@ -1,0 +1,3 @@
+[submodule "submodules/MLTableAlert"]
+	path = submodules/MLTableAlert
+	url = git://github.com/MatthewLabs/MLTableAlert.git
